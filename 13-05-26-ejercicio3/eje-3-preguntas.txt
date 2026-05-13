@@ -1,0 +1,68 @@
+¿Qué es el pseudocódigo?;Un lenguaje de programación real;Un paso intermedio para pensar la lógica;Un comando de terminal;b 
+¿Cuál es el "Shebang" recomendado como estándar en el curso?;#!/usr/bin/python;#!/bin/sh;#!/bin/bash;c 
+¿En qué carpeta se guardan por convención los scripts personales?;~/bin;/etc/scripts;/usr/local;a 
+¿Qué comando se usa para dar permisos de ejecución a un script?;chmod +x;mkdir -p;source;a 
+¿Cuál es la regla de oro al declarar variables en Bash?;No debe haber espacios alrededor del =;Deben ir siempre en negrita;Deben terminar en punto y coma;a 
+¿Qué hace la expresión $((5 + 3))?;Ejecuta un comando;Realiza una operación matemática;Muestra el texto "5+3";b 
+¿Qué información guarda la variable especial $0?;El primer argumento;El nombre del propio script;La cantidad de argumentos;b 
+¿Qué representa la variable especial $#?;La lista de argumentos;El nombre del usuario;La cantidad de argumentos pasados;c
+¿Cómo se accede al primer argumento escrito después del script?;$A;1;FIRST;b 
+¿Qué indica un valor de 0 en la variable $?;Éxito en el último comando;Error crítico;Variable no definida;a 
+¿Cuál es la palabra clave para cerrar un bloque condicional "if"?;stop;end;fi;c 
+¿Qué bandera se usa en un "if" para verificar si un archivo regular existe?;-d;-f;-x;b 
+¿Qué bandera se usa en un "if" para verificar si un directorio existe?;-d;-f;-s;a 
+¿Qué significa la abreviatura "-eq" en comparaciones numéricas?;Mayor que;Diferente de;Igual a;c 
+¿Qué comparación numérica representa "-lt"?;Menor que;Igual;Menor o igual;a 
+¿Qué comparación numérica representa "-gt"?;Igual;Mayor que;Diferente;b 
+¿Para qué sirven los dobles corchetes [[ ]]?;Solo para matemáticas;Son una forma moderna y segura de escribir condiciones;Para definir funciones;b 
+¿Qué se recomienda para comparaciones numéricas con símbolos como ">"?;[[ ]];(( ));[ ];b 
+¿Cuál es un error común al escribir un bloque "if"?;No dejar espacios dentro de los corchetes;Usar letras mayúsculas;Poner comentarios;a 
+¿Qué palabra clave se usa para cerrar los bucles "for" y "while"?;stop;done;finish;b 
+¿Qué comando genera una secuencia de números en un bucle "for"?;count;list;seq;c
+¿Cómo se define un bucle que se repite indefinidamente?;while true;for ever;loop infinite;a 
+¿Cuál es el propósito principal de usar funciones?;Borrar archivos;Organizar y reutilizar código;Cambiar el color;b 
+¿Cómo se llama a una función llamada "limpiar" dentro del script?;call limpiar;limpiar();limpiar;c 
+¿Qué comando captura la entrada del usuario durante la ejecución?;input;read;get;b 
+¿Qué opción de "read" muestra un mensaje (prompt) en la misma línea?;-m;-p;-n;b 
+¿Qué hace la opción "-s" en el comando "read"?;Guarda datos;Oculta lo que el usuario escribe;Aumenta la velocidad;b 
+¿Para qué sirve la opción "-t" en el comando "read"?;Traducir texto;Establecer un tiempo límite (timeout);Tabular datos;b 
+¿Qué símbolo se utiliza para redirigir la salida y sobrescribir un archivo?;>;>>;|;a 
+¿Qué símbolo se utiliza para añadir información al final de un archivo?;>;>>;|;b 
+¿Qué es "/dev/null" en Linux?;Una carpeta de backups;Un "agujero negro" para descartar salida de datos;El directorio raíz;b 
+¿Qué función cumple el "pipe" (|)?;Suma variables;Pasa la salida de un comando como entrada al siguiente;Cierra el script;b 
+¿Qué hace el comando "set -e"?;Muestra comandos;Detiene el script si un comando falla;Ignora errores de red;b 
+¿Qué hace el comando "set -u"?;Actualiza el sistema;Muestra el usuario;Lanza error si se usa una variable no definida;c 
+¿Cómo se cierra un bloque de selección múltiple "case"?;end;esac;stop;b 
+¿Para qué sirve el comando "trap" en un script?;Capturar errores de sintaxis;Ejecutar una limpieza al salir;Pausar el script;b
+¿Qué es el pseudocódigo?;Un lenguaje de programación real;Un paso intermedio para pensar la lógica de un programa;Un comando de terminal para Linux;b
+¿Cuál es el "Shebang" estándar recomendado para los scripts del curso?;#!/bin/sh;#!/usr/bin/python;#!/bin/bash;c
+¿En qué carpeta se recomienda guardar los scripts personales por convención?;/etc/scripts;~/bin;/usr/local;b
+¿Qué comando se utiliza para dar permisos de ejecución a un script?;chmod +x;mkdir -p;source;a
+¿Cuál es la regla de oro al declarar variables en Bash?;Deben ir siempre en negrita;No debe haber espacios alrededor del signo =;Deben terminar en punto y coma;b
+¿Qué hace la expresión $((5 + 3)) en un script?;Ejecuta un comando llamado 5;Muestra el texto "5 + 3";Realiza una operación matemática de suma;c
+¿Qué información guarda la variable especial $0?;El nombre del propio archivo del script;El primer argumento pasado al script;La cantidad total de argumentos;a
+¿Qué representa la variable especial $#?;La lista de todos los argumentos;El nombre del usuario;La cantidad de argumentos pasados al script;c
+¿Cómo se accede al primer argumento pasado al script?;$A;1;FIRST;b 
+¿Qué indica un valor de 0 en la variable $?;Éxito del último comando;Error crítico;Variable vacía;a 
+¿Qué palabra clave cierra un bloque condicional "if"?;stop;end;fi;c 
+¿Qué bandera verifica si un archivo regular existe?;-d;-f;-x;b 
+¿Qué bandera verifica si un directorio existe?;-d;-f;-s;a ¿Qué significa "-eq" en una comparación numérica?;Mayor que;Diferente de;Igual a;c 
+¿Qué comparación representa "-lt" en Bash?;Menor que;Igual;Menor o igual;a ¿Qué comparación representa "-gt" en Bash?;Igual;Mayor que;Diferente;b 
+¿Para qué sirven los dobles corchetes [[ ]]?;Solo para matemáticas;Son más seguros y modernos para condiciones;Para definir funciones;b 
+¿Qué se recomienda para operaciones matemáticas con símbolos como ">"?;[[ ]];(( ));[ ];b 
+¿Cuál es un error común al escribir un "if"?;No dejar espacios tras [;Usar letras mayúsculas;Poner comentarios;a 
+¿Qué palabra clave cierra los bucles "for" y "while"?;stop;done;finish;b 
+¿Qué comando genera una secuencia de números en un bucle?;count;list;seq;c 
+¿Cómo se define un bucle que se repite infinitamente?;while true;for ever;loop infinite;a 
+¿Cuál es el fin principal de usar funciones?;Borrar archivos;Organizar y reutilizar código;Cambiar colores;b 
+¿Cómo se llama a una función llamada "test" en el script?;call test;test();test;c 
+¿Qué comando captura la entrada del usuario?;input;read;get;b ¿Qué opción de "read" muestra un mensaje en la misma línea?;-m;-p;-n;b 
+¿Qué hace la opción "read -s"?;Guarda el dato;Oculta lo que el usuario escribe;Aumenta velocidad;b 
+¿Para qué sirve la opción "read -t"?;Traducir;Tiempo límite de espera;Tabular;b 
+¿Qué símbolo redirige la salida y sobrescribe un archivo?;>;>>;|;a ¿Qué símbolo añade información al final de un archivo?;>;>>;|;b 
+¿Qué es "/dev/null"?;Carpeta de backups;Un "agujero negro" para descartar salida;Directorio raíz;b 
+¿Qué función cumple el "pipe" (|)?;Suma variables;Pasa salida de un comando a la entrada de otro;Cierra el script;b 
+¿Qué hace el comando "set -e"?;Muestra comandos;Detiene el script si un comando falla;Ignora errores;b 
+¿Qué hace el comando "set -u"?;Actualiza;Lanza error si una variable no está definida;Muestra usuario;b 
+¿Cómo se cierra un bloque de selección "case"?;end;esac;stop;b 
+¿Para qué sirve el comando "trap"?;Capturar errores de sintaxis;Limpieza al salir del script;Pausar el script;b 

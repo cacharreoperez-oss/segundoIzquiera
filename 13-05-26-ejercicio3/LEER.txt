@@ -1,0 +1,4 @@
+Se ha creado un archivo de preguntas.txt que almacena preguntas que son
+ procesadas por el archivo: eje-3-preguntas.sh, donde serán mostradas de
+ manera aleatoria al usuario y al final se imprimirá por consola una 
+calificación de las 10 preguntas aleatorias

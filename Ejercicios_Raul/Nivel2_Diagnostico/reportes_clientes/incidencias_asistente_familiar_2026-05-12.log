@@ -1,0 +1,81 @@
+
+[ORIGEN: 127.0.0.1] [HORA: 12:32:41]
+====================================================
+📢 NOTIFICACIÓN DE ACTIVIDAD - ASISTENTE FAMILIAR
+====================================================
+Usuario:         raul
+Fecha y Hora:    2026-05-12 12:32:41
+Acción:          El usuario ha seleccionado la opción 1 (Problema de Internet)
+====================================================
+==================================================
+
+[ORIGEN: 127.0.0.1] [HORA: 12:32:51]
+====================================================
+📢 NOTIFICACIÓN DE ACTIVIDAD - ASISTENTE FAMILIAR
+====================================================
+Usuario:         raul
+Fecha y Hora:    2026-05-12 12:32:51
+Acción:          El usuario ha seleccionado la opción 1 (Problema de Internet)
+====================================================
+==================================================
+
+[ORIGEN: 127.0.0.1] [HORA: 12:32:55]
+====================================================
+📢 NOTIFICACIÓN DE ACTIVIDAD - ASISTENTE FAMILIAR
+====================================================
+Usuario:         raul
+Fecha y Hora:    2026-05-12 12:32:55
+Acción:          El usuario ha seleccionado la opción 2 (Lentitud del Sistema)
+====================================================
+==================================================
+
+[ORIGEN: 127.0.0.1] [HORA: 12:32:58]
+====================================================
+📢 NOTIFICACIÓN DE ACTIVIDAD - ASISTENTE FAMILIAR
+====================================================
+Usuario:         raul
+Fecha y Hora:    2026-05-12 12:32:58
+Acción:          El usuario ha seleccionado la opción 3 (Fallo de Sonido)
+====================================================
+==================================================
+
+[ORIGEN: 127.0.0.1] [HORA: 12:33:01]
+====================================================
+🚨 ¡AVISO DE EMERGENCIA - SOLICITUD DE ASISTENCIA! 🚨
+====================================================
+El usuario ha pulsado el 'Botón del Pánico' porque 
+el ordenador no responde correctamente.
+
+Fecha del incidente: 2026-05-12 12:33:00
+Usuario afectado:    raul
+Opción marcada:      4 (¡SOS! Nada funciona)
+====================================================
+📋 DETALLES TÉCNICOS INTERNOS DEL SISTEMA:
+====================================================
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ A start job for unit UNIT has finished with a failure.
+░░ 
+░░ The job identifier is 377 and the job result is failed.
+may 12 09:18:20 maquinaraul systemd[1437]: Failed to start app-gnome-vboxclient-2031.scope - Application launched by gnome-session-binary.
+░░ Subject: A start job for unit UNIT has failed
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ A start job for unit UNIT has finished with a failure.
+░░ 
+░░ The job identifier is 369 and the job result is failed.
+may 12 09:18:21 maquinaraul kernel: /dev/sr0: Can't open blockdev
+====================================================
+==================================================
+
+[ORIGEN: 127.0.0.1] [HORA: 12:33:03]
+====================================================
+📢 NOTIFICACIÓN DE ACTIVIDAD - ASISTENTE FAMILIAR
+====================================================
+Usuario:         raul
+Fecha y Hora:    2026-05-12 12:33:03
+Acción:          El usuario ha seleccionado la opción 5 (Cierre del Asistente)
+====================================================
+==================================================

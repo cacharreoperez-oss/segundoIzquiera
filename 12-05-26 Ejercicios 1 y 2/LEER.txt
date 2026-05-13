@@ -1,0 +1,6 @@
+Para que se apliquen los cambios y la presentación sugerida por el archivo:
+Prueba2ejercicios.sh   Fue necesario realizar la instalación de los siguientes componentes:
+sudo apt update
+sudo apt install
+sudo apt install figlet
+sudo apt install figlet lolcat

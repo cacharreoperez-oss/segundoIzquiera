@@ -57,5 +57,5 @@ else
 fi
 
 echo -e "\n------------------------------------------------"
-echo -e "${VERDE}¡Que tengas un excelente día, $usuario!${RESET}"
+echo -e "${VERDE}Se acabó el trabajo,¡Que tengas un excelente día, $usuario!${RESET}"
 echo ""

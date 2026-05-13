@@ -10,25 +10,15 @@ Repositorio oficial del grupo **Segundo Izquierda** para el curso de *Programaci
 
 ## 📋 Contenido del Proyecto
 
-Este repositorio contiene una serie de ejercicios resueltos en pseudocódigo, enfocados en la lógica de programación y validación de datos.
+Este repositorio contiene una serie de ejercicios resueltos del certificado de profesionalidad de IFCD0112.
 
-### 🧠 Ejercicios Incluidos
-
-1.  **[Validador de Fortaleza de Contraseña](file:///home/hola/curso_ifcd0112/segundoIzquierda/11-05-26%20Ejercicio.md#L4)**
-    - Clasifica contraseñas según longitud y diversidad de caracteres (débil, media, fuerte).
-2.  **[Escáner de IPs por Ping](file:///home/hola/curso_ifcd0112/segundoIzquierda/11-05-26%20Ejercicio.md#L41)**
-    - Simulación de escaneo de red para identificar hosts activos y caídos.
-3.  **[Validador de Email](file:///home/hola/curso_ifcd0112/segundoIzquierda/11-05-26%20Ejercicio.md#L83)**
-    - Validación estructural de direcciones de correo electrónico sin uso de Regex.
-4.  **[Contador de Palabras Distintas](file:///home/hola/curso_ifcd0112/segundoIzquierda/11-05-26%20Ejercicio.md#L158)**
-    - Algoritmo para identificar y contar términos únicos en un bloque de texto.
 
 ---
 
 ## 🛠️ Tecnologías y Herramientas
 
-- **Lógica**: Pseudocódigo estructurado.
-- **Entorno**: GitHub & Visual Studio Code.
+- **Lógica**: Pseudocódigo estructurado, bash y python.
+- **Entorno**: GitHub & Antigravity.
 - **Metodología**: Desarrollo ágil en grupo.
 
 ---

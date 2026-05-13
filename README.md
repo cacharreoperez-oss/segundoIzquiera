@@ -55,4 +55,5 @@ Este proyecto está bajo la Licencia MIT - mira el archivo [LICENSE](LICENSE) pa
 | **Mermaid** (los diagramas de esta guía) | Knut Sveidqvist | 2014 | <https://mermaid.js.org/> |
 | **VirtualBox** | Innotek → Sun → Oracle | 2007 | <https://www.virtualbox.org/> |
 | **Markdown** | John Gruber y Aaron Swartz | 2004 | <https://daringfireball.net/projects/markdown/> |
+| **Antigravity** | Google Deepmind | 2024 | <https://deepmind.google/> |
 

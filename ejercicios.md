@@ -187,3 +187,50 @@ done
 echo -e "\n==========================================="
 echo "La cantidad de respuestas correctas es: $nota"
 echo "==========================================="
+
+
+#ejercicio 4
+SCRIPT SH
+
+#!/bin/bash
+# Script para recolectar datos y enviarlos al servidor
+
+echo "=== SISTEMA DE REPORTES ==="
+
+# Agregamos </dev/tty para que el teclado funcione a través del curl
+read -p "Ingresa tu nombre: " nombre </dev/tty
+
+equipo=$(hostname)
+fecha=$(date '+%Y-%m-%d %H:%M:%S')
+
+echo "Enviando datos al servidor de recepción (Puerto 5000)..."
+
+# Corregido el cierre del JSON al final de la línea
+curl -X POST http://192.168.56.20:5000/reporte \
+     -H "Content-Type: application/json" \
+     -d "{\"nombre\": \"$nombre\", \"equipo\": \"$equipo\", \"fecha\": \"$fecha>
+
+echo -e "\n[+] Proceso finalizado."
+
+PYTHON
+
+from flask import Flask, request
+import json, os, datetime
+
+app = Flask(__name__)
+FOLDER = 'reportes'
+
+if not os.path.exists(FOLDER):
+    os.makedirs(FOLDER)
+
+@app.route('/reporte', methods=['POST'])
+def save_data():
+    datos = request.json
+    # Crear nombre de archivo unico por fecha/hora
+    nombre_archivo = f"{FOLDER}/reporte_{datetime.datetime.now().strftime('%Y%m>
+    
+    with open(nombre_archivo, 'w') as f:
+        json.dump(datos, f, indent=4)
+    
+    print(f"Recibido reporte de: {datos.get('nombre')} - Guardado en {nombre_ar>
+    return {"status": "success"}, 201

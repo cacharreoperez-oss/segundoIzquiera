@@ -1,0 +1,28 @@
+-Abrimos 2 terminales del server y en cada uno ejecutamos ejecutamos un comando:
+cd ~/practica_linux/distribucion
+python3 -m http.server 8000
+
+cd ~/practica_linux
+python3 receptor.py
+
+- Abrimos una terminal Desktop y ponemos los siguientes comandos:
+
+1. Descargamos el archivo (añadiendo la ruta del script):
+bashcurl -s 192.168.56.20:8000/recoge_datos.sh -o recoge_datos.sh
+
+- Damos permiso:
+chmod +x recoge_datos.sh
+
+Ejecutamos el Script:
+./recoge_datos.sh
+
+La terminal te pedirá tu nombre. Escríbelo y presiona Enter.
+Verás el mensaje "Enviando datos a serverjuan..." seguido de "OK - Reporte guardado".
+
+Verificación en el Servidor
+Regresa a la terminal de tu servidor para comprobar que la separación cliente/servidor si funcionó correctamente.
+Detén el script receptor.py, si lo deseas con Ctrl + C. 
+Revisa el contenido de la carpeta de reportes:
+cd ~/practica_linux/reportes_recibidos
+ls -l
+Lee el archivo .json generado para ver los datos que llegaron desde el desktop:bashcat reporte_*.json

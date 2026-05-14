@@ -1,0 +1,27 @@
+from http.server import HTTPServer, BaseHTTPRequestHandler
+import os
+import time
+
+CARPETA = "reportes_recibidos"
+os.makedirs(CARPETA, exist_ok=True)
+
+class ReportHandler(BaseHTTPRequestHandler):
+    def do_POST(self):
+        content_length = int(self.headers['Content-Length'])
+        post_data = self.rfile.read(content_length)
+
+        nombre_archivo = f"reporte_{int(time.time())}.json"
+        ruta = os.path.join(CARPETA, nombre_archivo)
+
+        with open(ruta, "wb") as f:
+            f.write(post_data)
+
+        self.send_response(200)
+        self.send_header("Content-Type", "text/plain")
+        self.end_headers()
+        self.wfile.write(b"OK - Reporte guardado")
+
+if __name__ == "__main__":
+    server = HTTPServer(('0.0.0.0', 5000), ReportHandler)
+    print("Servidor de reportes escuchando en el puerto 5000...")
+    server.serve_forever()

@@ -39,7 +39,6 @@ Este proyecto está bajo la Licencia MIT - mira el archivo [LICENSE](LICENSE) pa
 > 
 > - **Autor original:** [Juan Marcelo Gutierrez Miranda](https://github.com/TodoEconometria)
 > - **Institución:** @TodoEconometria
-> - **Hash de Certificación:** `4e8d9b1a5f6e7c3d2b1a0f9e8d7c6b5a4f3e2d1c0b9a8f7e6d5c4b3a2f1e0d9c`
 
 ### Las herramientas que usas (y quién las hizo)
 
